@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+    	
+    	<div class="grid">
+            <div class="grid-item"><img src="../Google_Logo_1998.png" alt="Google Logo" width="200"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"><a href="index.html">Google Search</a></div>
+            <div class="grid-item">Advanced Search</div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            
+
+            
+            <div class="grid-item">
+            	<label>Find pages with..</label><p>
+
+            	<form action="https://www.google.com/search" method="get" id="advform">
+					<label for="as_q">all these words:</label>
+					<input type="text" id="as_q" name="as_q"><br>
+					
+					<label for="as_epq">this exact word or phrase:</label>
+					<input type="text" id="as_epq" name="as_epq"><br>
+					
+					
+		    		<label for="as_oq">any of these words:</label>
+					<input type="text" id="as_oq" name="as_oq"><br>
+					
+		    		<label for="as_eq">none of these words:</label>
+					<input type="text" id="as_eq" name="as_eq">	
+				</form>
+				<p></p>
+	
+				<button type="submit" id="adv_submit" form="advform" value="Submit">Advanced Search</button>
+
+            </div>
+            <div class="grid-item"></div>
+			<div class="grid-item"></div>
+        </div>
+
+    </body>
+</html>
